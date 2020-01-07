@@ -1,21 +1,6 @@
-
-
-
-
-
-
 <!DOCTYPE html>
-<!--
-    Name: Godlike - Gaming HTML Template
-    Version: 2.4.0
-    Author: nK
-    Website: https://nkdev.info/
-    Purchase: https://1.envato.market/godlike-html-info
-    Support: https://nk.ticksy.com/
-    License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
-    Copyright 2019.
--->
-    
+
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -23,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="_nK">
-    <title>GODLIKE | Navigation Main Side</title>
+    <title>Myth</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
 
     <!-- START: Styles -->
@@ -122,7 +107,7 @@
         data-video-end-time - video end time in seconds
         data-video-pause-on-page-leave - pause video when the page not in focus (true/false)
 -->
-<div class="nk-page-background op-5" data-video="https://youtu.be/UkeDo1LhUqQ" data-video-loop="true" data-video-mute="true" data-video-volume="0" data-video-start-time="0" data-video-end-time="0" data-video-pause-on-page-leave="true" style="background-image: url('assets/images/page-background.jpg');"></div>
+<div class="nk-page-background op-5" data-video=" " data-video-loop="true" data-video-mute="true" data-video-volume="0" data-video-start-time="0" data-video-end-time="0" data-video-pause-on-page-leave="true" style="background-image: url('assets/images/rose.jpg');"></div>
 <!-- END: Page Background -->
 
 <!--
@@ -151,13 +136,514 @@
 
 
     
+        
+
+
+
+<!--
+    Additional Classes:
+        .nk-header-opaque
+-->
+<header class="nk-header nk-header-opaque">
+
+    
+    
+<!--
+    START: Top Contacts
+
+    Additional Classes:
+        .nk-contacts-top-light
+-->
+<div class="nk-contacts-top">
+    <div class="container">
+        <div class="nk-contacts-left">
+            <div class="nk-navbar">
+                <ul class="nk-nav">
+                    <li class="nk-drop-item">
+                        <a href="#">USA</a>
+                        <ul class="dropdown">
+                            <li><a href="#">USA</a></li>
+                            <li><a href="#">Russia</a></li>
+                            <li><a href="#">United Kingdom</a></li>
+                            <li><a href="#">France</a></li>
+                            <li><a href="#">Spain</a></li>
+                            <li><a href="#">Germany</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="page-contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nk-contacts-right">
+            <div class="nk-navbar">
+                <ul class="nk-nav">
+                    <li><a href="https://twitter.com/nkdevv" target="_blank"><span class="ion-social-twitter"></span></a></li>
+                    <li><a href="https://dribbble.com/_nK" target="_blank"><span class="ion-social-dribbble-outline"></span></a></li>
+                    <li><a href="#"><span class="ion-social-instagram-outline"></span></a></li>
+                    <li><a href="#"><span class="ion-social-pinterest"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END: Top Contacts -->
+
+    
+
+    <!--
+        START: Navbar
+
+        Additional Classes:
+            .nk-navbar-sticky
+            .nk-navbar-transparent
+            .nk-navbar-autohide
+            .nk-navbar-light
+            .nk-navbar-no-link-effect
+    -->
+    <nav class="nk-navbar nk-navbar-top nk-navbar-sticky nk-navbar-transparent nk-navbar-autohide">
+        <div class="container">
+            <div class="nk-nav-table">
+                
+                <a href="index.html" class="nk-nav-logo">
+                    <img src="assets/images/logo.svg" alt="" width="90">
+                </a>
+                
+                
+                <ul class="nk-nav nk-nav-right d-none d-lg-block" data-nav-mobile="#nk-nav-mobile">
+                    <li class="active  nk-drop-item">
+            <a href="index.html">
+                Home</a><ul class="dropdown" style="display: none;">
+                        <li class="active  " style="display: none;">
+            <a href="index.html">
+                Landing</a>
+        </li><li class="  ">
+            <a href="index-main.html">
+                Main</a>
+        </li><li class="  ">
+            <a href="index-game-promo.html">
+                Game Promo</a>
+        </li>
+                    </ul>
+        </li><li class="  nk-drop-item">
+            <a href="page-contact.html">
+                Features</a><ul class="dropdown">
+                        <li class="  nk-drop-item">
+            <a href="page-contact.html">
+                Pages</a><ul class="dropdown">
+                        <li class="  ">
+            <a href="forum.html">
+                Forum</a>
+        </li><li class="  ">
+            <a href="page-contact.html">
+                Contact</a>
+        </li><li class="  ">
+            <a href="page-coming-soon.html">
+                Coming Soon</a>
+        </li><li class="  ">
+            <a href="page-404.html">
+                404</a>
+        </li><li class="  ">
+            <a href="page-age-check.html">
+                Age Check</a>
+        </li>
+                    </ul>
+        </li><li class="  nk-drop-item">
+            <a href="layout-nav-default.html">
+                Navigations</a><ul class="dropdown">
+                        <li class="  ">
+            <a href="layout-nav-default.html">
+                Default</a>
+        </li><li class="  ">
+            <a href="layout-nav-default-transparent.html">
+                Default Transparent</a>
+        </li><li class="  ">
+            <a href="layout-nav-main-top.html">
+                Main Top Only</a>
+        </li><li class="  ">
+            <a href="layout-nav-main-side.html">
+                Main Side</a>
+        </li><li class="  ">
+            <a href="layout-nav-main-top-fullscreen.html">
+                Main Top + Fullscreen</a>
+        </li><li class="  ">
+            <a href="layout-nav-fullscreen-side.html">
+                Fullscreen + Side</a>
+        </li>
+                    </ul>
+        </li><li class="  nk-drop-item">
+            <a href="layout-page-header.html">
+                Headers</a><ul class="dropdown">
+                        <li class="  ">
+            <a href="layout-header.html">
+                Size Default</a>
+        </li><li class="  ">
+            <a href="layout-header-sm.html">
+                Size Small</a>
+        </li><li class="  ">
+            <a href="layout-header-md.html">
+                Size Mid</a>
+        </li><li class="  ">
+            <a href="layout-header-lg.html">
+                Size Large</a>
+        </li><li class="  ">
+            <a href="layout-header-full.html">
+                Size Full</a>
+        </li><li class="  ">
+            <a href="layout-header-video.html">
+                Video</a>
+        </li><li class="  ">
+            <a href="layout-header-video-plain.html">
+                Video Plain</a>
+        </li><li class="  ">
+            <a href="layout-header-no.html">
+                NO Header</a>
+        </li>
+                    </ul>
+        </li><li class="  ">
+            <a href="widgets.html">
+                Widgets</a>
+        </li><li class="  ">
+            <a href="https://nkdev.info/docs/godlike-html/">
+                Documentation</a>
+        </li>
+                    </ul>
+        </li><li class=" nk-mega-item nk-drop-item">
+            <a href="#">
+                Elements</a><div class="dropdown"><div class="bg-image">
+                                <img src="assets/images/bg-menu.jpg" alt="" class="jarallax-img">
+                            </div><ul>
+                            
+    
+        <li>
+            
+                <ul>
+                    <li class="  ">
+            <a href="element-carousels.html">
+                Carousels</a>
+        </li><li class="  ">
+            <a href="element-image-boxes.html">
+                Image Boxes</a>
+        </li><li class="  ">
+            <a href="element-icon-boxes.html">
+                Icon Boxes</a>
+        </li><li class="  ">
+            <a href="element-counters.html">
+                Counters</a>
+        </li><li class="  ">
+            <a href="element-blockquotes.html">
+                Block Quotes</a>
+        </li><li class="  ">
+            <a href="element-testimonials.html">
+                Testimonials</a>
+        </li><li class="  ">
+            <a href="element-team-members.html">
+                Team Members</a>
+        </li>
+                </ul>
+            
+        </li>
+    
+        <li>
+            
+                <ul>
+                    <li class="  ">
+            <a href="element-video-blocks.html">
+                Video Blocks</a>
+        </li><li class="  ">
+            <a href="element-gif.html">
+                Gif Animations</a>
+        </li><li class="  ">
+            <a href="element-forms.html">
+                AJAX Forms</a>
+        </li><li class="  ">
+            <a href="element-countdown.html">
+                Countdown</a>
+        </li><li class="  ">
+            <a href="element-text-typed.html">
+                Typed Text</a>
+        </li><li class="  ">
+            <a href="element-tabs.html">
+                Tabs</a>
+        </li><li class="  ">
+            <a href="element-accordions.html">
+                Accordions</a>
+        </li>
+                </ul>
+            
+        </li>
+    
+        <li>
+            
+                <ul>
+                    <li class="  ">
+            <a href="element-info-boxes.html">
+                Info Boxes / Alerts</a>
+        </li><li class="  ">
+            <a href="element-call-to-action.html">
+                Call to Action Blocks</a>
+        </li><li class="  ">
+            <a href="element-progress.html">
+                Progress Bars</a>
+        </li><li class="  ">
+            <a href="element-pagination.html">
+                Pagination</a>
+        </li><li class="  ">
+            <a href="element-pricing-tables.html">
+                Pricing Tables</a>
+        </li><li class="  ">
+            <a href="element-modals.html">
+                Modals</a>
+        </li>
+                </ul>
+            
+        </li>
+    
+        <li>
+            
+                <ul>
+                    <li class="  ">
+            <a href="element-typography.html">
+                Typography</a>
+        </li><li class="  ">
+            <a href="element-titles.html">
+                Titles [headings]</a>
+        </li><li class="  ">
+            <a href="element-dropcaps.html">
+                Dropcaps</a>
+        </li><li class="  ">
+            <a href="element-colors.html">
+                Colors</a>
+        </li><li class="  ">
+            <a href="element-buttons.html">
+                Buttons</a>
+        </li><li class="  ">
+            <a href="element-breadcrumbs.html">
+                Breadcrumbs</a>
+        </li>
+                </ul>
+            
+        </li>
+    
+
+                        </ul>
+                    </div>
+        </li><li class="  nk-drop-item">
+            <a href="news-list.html">
+                News</a><ul class="dropdown">
+                        <li class="  ">
+            <a href="news-list.html">
+                List</a>
+        </li><li class="  ">
+            <a href="news-list-classic.html">
+                Classic List</a>
+        </li><li class="  ">
+            <a href="news-grid-2.html">
+                Grid 2 Columns</a>
+        </li><li class="  ">
+            <a href="news-grid-3.html">
+                Grid 3 Columns</a>
+        </li><li class="  nk-drop-item">
+            <a href="news-single-image.html">
+                Single Post</a><ul class="dropdown">
+                        <li class="  ">
+            <a href="news-single-image.html">
+                Single Image</a>
+        </li><li class="  ">
+            <a href="news-single-video.html">
+                Single Video</a>
+        </li><li class="  ">
+            <a href="news-single-audio.html">
+                Single Audio</a>
+        </li><li class="  ">
+            <a href="news-single-gallery.html">
+                Single Gallery</a>
+        </li><li class="  ">
+            <a href="news-single-quote.html">
+                Single Block Quote</a>
+        </li><li class="  ">
+            <a href="news-single-standard.html">
+                Single Standard</a>
+        </li><li class="  ">
+            <a href="news-single-big-content.html">
+                Single Big Content Example</a>
+        </li>
+                    </ul>
+        </li>
+                    </ul>
+        </li><li class="  nk-drop-item">
+            <a href="social-user-activity.html">
+                Social</a><ul class="dropdown">
+                        <li class="  nk-drop-item">
+            <a href="social-user-activity.html">
+                User</a><ul class="dropdown">
+                        <li class="  ">
+            <a href="social-user-activity.html">
+                Activity</a>
+        </li><li class="  ">
+            <a href="social-user-notifications.html">
+                Notifications</a>
+        </li><li class="  ">
+            <a href="social-user-messages.html">
+                Messages</a>
+        </li><li class="  ">
+            <a href="social-user-messages-single.html">
+                Messages Single</a>
+        </li><li class="  ">
+            <a href="social-user-messages-compose.html">
+                Messages Compose</a>
+        </li><li class="  ">
+            <a href="social-user-friends.html">
+                Friends</a>
+        </li><li class="  ">
+            <a href="social-user-settings.html">
+                Settings</a>
+        </li><li class="  ">
+            <a href="social-user-settings-email.html">
+                Settings Email</a>
+        </li>
+                    </ul>
+        </li><li class="  nk-drop-item">
+            <a href="social-group-activity.html">
+                Group</a><ul class="dropdown">
+                        <li class="  ">
+            <a href="social-group-activity.html">
+                Activity</a>
+        </li><li class="  ">
+            <a href="social-group-members.html">
+                Members</a>
+        </li><li class="  ">
+            <a href="social-group-manage.html">
+                Manage</a>
+        </li>
+                    </ul>
+        </li>
+                    </ul>
+        </li><li class="  nk-drop-item">
+            <a href="store.html">
+                Store</a><ul class="dropdown">
+                        <li class="  ">
+            <a href="store.html">
+                Store</a>
+        </li><li class="  ">
+            <a href="store-product.html">
+                Single Product</a>
+        </li><li class="  ">
+            <a href="store-cart.html">
+                Cart</a>
+        </li><li class="  ">
+            <a href="store-checkout.html">
+                Checkout</a>
+        </li><li class="  ">
+            <a href="store-account.html">
+                Account</a>
+        </li>
+                    </ul>
+        </li><li class="  nk-drop-item">
+            <a href="gallery.html">
+                Media</a><ul class="dropdown">
+                        <li class="  ">
+            <a href="gallery.html">
+                Gallery 1 Column</a>
+        </li><li class="  ">
+            <a href="gallery-2-col.html">
+                Gallery 2 Columns</a>
+        </li><li class="  ">
+            <a href="gallery-3-col.html">
+                Gallery 3 Columns</a>
+        </li><li class="  ">
+            <a href="videos.html">
+                Videos 1 Column</a>
+        </li><li class="  ">
+            <a href="videos-2-col.html">
+                Videos 2 Columns</a>
+        </li>
+                    </ul>
+        </li>
+                </ul>
+                
+                <ul class="nk-nav nk-nav-right nk-nav-icons">
+                    
+                        <li class="single-icon d-lg-none">
+                            <a href="#" class="no-link-effect" data-nav-toggle="#nk-nav-mobile">
+                                <span class="nk-icon-burger">
+                                    <span class="nk-t-1"></span>
+                                    <span class="nk-t-2"></span>
+                                    <span class="nk-t-3"></span>
+                                </span>
+                            </a>
+                        </li>
+                    
+                    
+                    
+                    <li class="single-icon">
+                        <a href="#" class="nk-search-toggle no-link-effect">
+                            <span class="nk-icon-search"></span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="single-icon">
+                        <a href="#" class="nk-cart-toggle no-link-effect">
+                            <span class="nk-icon-toggle">
+                                <span class="nk-icon-toggle-front">
+                                    <span class="ion-android-cart"></span>
+                                    <span class="nk-badge">8</span>
+                                </span>
+                                <span class="nk-icon-toggle-back">
+                                    <span class="nk-icon-close"></span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="single-icon">
+                        <a href="#" class="nk-sign-toggle no-link-effect">
+                            <span class="nk-icon-toggle">
+                                <span class="nk-icon-toggle-front">
+                                    <span class="fa fa-sign-in"></span>
+                                </span>
+                                <span class="nk-icon-toggle-back">
+                                    <span class="nk-icon-close"></span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li class="single-icon">
+                        <a href="#" class="no-link-effect" data-nav-toggle="#nk-side">
+                            <span class="nk-icon-burger">
+                                <span class="nk-t-1"></span>
+                                <span class="nk-t-2"></span>
+                                <span class="nk-t-3"></span>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END: Navbar -->
+
+</header>
+
+    
+    
+    
+    
     
         
 
 <!--
-    START: Navbar
+    START: Right Navbar
 
     Additional Classes:
+        .nk-navbar-right-side
+        .nk-navbar-left-side
         .nk-navbar-lg
         .nk-navbar-align-center
         .nk-navbar-align-right
@@ -165,89 +651,29 @@
         .nk-navbar-light
         .nk-navbar-no-link-effect
 -->
-<nav class="nk-navbar nk-navbar-side nk-navbar-left nk-navbar-lg nk-navbar-align-center nk-navbar-overlay-content" id="nk-navbar-left">
+
+<nav class="nk-navbar nk-navbar-side nk-navbar-right-side nk-navbar-lg nk-navbar-align-center nk-navbar-overlay-content" id="nk-side">
+    
+    <div class="nk-navbar-bg">
+        <div class="bg-image">
+            <img src="assets/images/bg-nav-side.jpg" alt="" class="jarallax-img">
+        </div>
+    </div>
+    
+
     <div class="nano">
         <div class="nano-content">
             <div class="nk-nav-table">
+                
                 <div class="nk-nav-row">
-                    
                     <a href="index.html" class="nk-nav-logo">
-                        <img src="assets/images/logo.svg" alt="" width="130">
+                        <img src="assets/images/logo.svg" alt="" width="150">
                     </a>
-                    
-                    <ul class="nk-nav-icons">
-                        
-                        <li>
-                            <a href="#" class="nk-search-toggle no-link-effect">
-                                <span class="nk-icon-search"></span>
-                            </a>
-                        </li>
-                        
-                        
-                        <li>
-                            <a href="#" class="nk-cart-toggle no-link-effect">
-                                <span class="nk-icon-toggle">
-                                    <span class="nk-icon-toggle-front">
-                                        <span class="ion-android-cart"></span>
-                                        <span class="nk-badge">8</span>
-                                    </span>
-                                    <span class="nk-icon-toggle-back">
-                                        <span class="nk-icon-close"></span>
-                                    </span>
-                                </span>
-                            </a>
-                        </li>
-                        
-                        
-                        <li>
-                            <a href="#" class="nk-sign-toggle no-link-effect">
-                                <span class="nk-icon-toggle">
-                                    <span class="nk-icon-toggle-front">
-                                        <span class="fa fa-sign-in"></span>
-                                    </span>
-                                    <span class="nk-icon-toggle-back">
-                                        <span class="nk-icon-close"></span>
-                                    </span>
-                                </span>
-                            </a>
-                        </li>
-                        
-                    </ul>
                 </div>
-                <!--
-                    START: Navigation
-
-                    Additional Classes:
-                        .nk-nav-row-top
-                        .nk-nav-row-center
-                        .nk-nav-row-bottom
-                -->
+                
                 <div class="nk-nav-row nk-nav-row-full nk-nav-row-center">
-                    <ul class="nk-nav" data-nav-mobile="#nk-nav-mobile">
-                        <li class=" nk-drop-item">
-            <a href="index.html">
-                Home</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="index.html">
-                Landing</a>
-        </li><li class=" ">
-            <a href="index-main.html">
-                Main</a>
-        </li><li class=" ">
-            <a href="index-game-promo.html">
-                Game Promo</a>
-        </li>
-                </ul>
-        </li><li class="active nk-drop-item">
-            <a href="page-contact.html">
-                Features</a><ul class="dropdown">
-                    <li class=" nk-drop-item">
-            <a href="page-contact.html">
-                Pages</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="forum.html">
-                Forum</a>
-        </li><li class=" ">
+                    <ul class="nk-nav">
+                        <li class=" ">
             <a href="page-contact.html">
                 Contact</a>
         </li><li class=" ">
@@ -259,308 +685,44 @@
         </li><li class=" ">
             <a href="page-age-check.html">
                 Age Check</a>
-        </li>
-                </ul>
-        </li><li class="active nk-drop-item">
-            <a href="layout-nav-default.html">
-                Navigations</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="layout-nav-default.html">
-                Default</a>
-        </li><li class=" ">
-            <a href="layout-nav-default-transparent.html">
-                Default Transparent</a>
-        </li><li class=" ">
-            <a href="layout-nav-main-top.html">
-                Main Top Only</a>
-        </li><li class="active ">
-            <a href="layout-nav-main-side.html">
-                Main Side</a>
-        </li><li class=" ">
-            <a href="layout-nav-main-top-fullscreen.html">
-                Main Top + Fullscreen</a>
-        </li><li class=" ">
-            <a href="layout-nav-fullscreen-side.html">
-                Fullscreen + Side</a>
-        </li>
-                </ul>
-        </li><li class=" nk-drop-item">
-            <a href="layout-page-header.html">
-                Headers</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="layout-header.html">
-                Size Default</a>
-        </li><li class=" ">
-            <a href="layout-header-sm.html">
-                Size Small</a>
-        </li><li class=" ">
-            <a href="layout-header-md.html">
-                Size Mid</a>
-        </li><li class=" ">
-            <a href="layout-header-lg.html">
-                Size Large</a>
-        </li><li class=" ">
-            <a href="layout-header-full.html">
-                Size Full</a>
-        </li><li class=" ">
-            <a href="layout-header-video.html">
-                Video</a>
-        </li><li class=" ">
-            <a href="layout-header-video-plain.html">
-                Video Plain</a>
-        </li><li class=" ">
-            <a href="layout-header-no.html">
-                NO Header</a>
-        </li>
-                </ul>
-        </li><li class=" ">
-            <a href="widgets.html">
-                Widgets</a>
-        </li><li class=" ">
-            <a href="https://nkdev.info/docs/godlike-html/">
-                Documentation</a>
-        </li>
-                </ul>
         </li><li class=" nk-drop-item">
             <a href="#">
-                Elements</a><ul class="dropdown">
-                    <li class=" nk-drop-item">
-            <a href="element-carousels.html">
-                Column 1</a><ul class="dropdown">
+                Sub Menu Example</a><ul class="dropdown">
                     <li class=" ">
-            <a href="element-carousels.html">
-                Carousels</a>
+            <a href="#1">
+                Sub Item 1</a>
+        </li><li class=" nk-drop-item">
+            <a href="#2">
+                Sub Item 2</a><ul class="dropdown">
+                    <li class=" ">
+            <a href="#1">
+                Sub Item 1</a>
         </li><li class=" ">
-            <a href="element-image-boxes.html">
-                Image Boxes</a>
-        </li><li class=" ">
-            <a href="element-icon-boxes.html">
-                Icon Boxes</a>
-        </li><li class=" ">
-            <a href="element-counters.html">
-                Counters</a>
-        </li><li class=" ">
-            <a href="element-blockquotes.html">
-                Block Quotes</a>
-        </li><li class=" ">
-            <a href="element-testimonials.html">
-                Testimonials</a>
-        </li><li class=" ">
-            <a href="element-team-members.html">
-                Team Members</a>
+            <a href="#2">
+                Sub Item 2</a>
         </li>
                 </ul>
         </li><li class=" nk-drop-item">
-            <a href="element-video-blocks.html">
-                Column 2</a><ul class="dropdown">
+            <a href="#3">
+                Sub Item 3</a><ul class="dropdown">
                     <li class=" ">
-            <a href="element-video-blocks.html">
-                Video Blocks</a>
-        </li><li class=" ">
-            <a href="element-gif.html">
-                Gif Animations</a>
-        </li><li class=" ">
-            <a href="element-forms.html">
-                AJAX Forms</a>
-        </li><li class=" ">
-            <a href="element-countdown.html">
-                Countdown</a>
-        </li><li class=" ">
-            <a href="element-text-typed.html">
-                Typed Text</a>
-        </li><li class=" ">
-            <a href="element-tabs.html">
-                Tabs</a>
-        </li><li class=" ">
-            <a href="element-accordions.html">
-                Accordions</a>
+            <a href="#">
+                Sub Item</a>
         </li>
                 </ul>
         </li><li class=" nk-drop-item">
-            <a href="element-info-boxes.html">
-                Column 3</a><ul class="dropdown">
+            <a href="#4">
+                Sub Item 4</a><ul class="dropdown">
                     <li class=" ">
-            <a href="element-info-boxes.html">
-                Info Boxes / Alerts</a>
-        </li><li class=" ">
-            <a href="element-call-to-action.html">
-                Call to Action Blocks</a>
-        </li><li class=" ">
-            <a href="element-progress.html">
-                Progress Bars</a>
-        </li><li class=" ">
-            <a href="element-pagination.html">
-                Pagination</a>
-        </li><li class=" ">
-            <a href="element-pricing-tables.html">
-                Pricing Tables</a>
-        </li><li class=" ">
-            <a href="element-modals.html">
-                Modals</a>
+            <a href="#">
+                Sub Item</a>
         </li>
                 </ul>
-        </li><li class=" nk-drop-item">
-            <a href="element-typography.html">
-                Column 4</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="element-typography.html">
-                Typography</a>
-        </li><li class=" ">
-            <a href="element-titles.html">
-                Titles [headings]</a>
-        </li><li class=" ">
-            <a href="element-dropcaps.html">
-                Dropcaps</a>
-        </li><li class=" ">
-            <a href="element-colors.html">
-                Colors</a>
-        </li><li class=" ">
-            <a href="element-buttons.html">
-                Buttons</a>
-        </li><li class=" ">
-            <a href="element-breadcrumbs.html">
-                Breadcrumbs</a>
-        </li>
-                </ul>
-        </li>
-                </ul>
-        </li><li class=" nk-drop-item">
-            <a href="news-list.html">
-                News</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="news-list.html">
-                List</a>
-        </li><li class=" ">
-            <a href="news-list-classic.html">
-                Classic List</a>
-        </li><li class=" ">
-            <a href="news-grid-2.html">
-                Grid 2 Columns</a>
-        </li><li class=" ">
-            <a href="news-grid-3.html">
-                Grid 3 Columns</a>
-        </li><li class=" nk-drop-item">
-            <a href="news-single-image.html">
-                Single Post</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="news-single-image.html">
-                Single Image</a>
-        </li><li class=" ">
-            <a href="news-single-video.html">
-                Single Video</a>
-        </li><li class=" ">
-            <a href="news-single-audio.html">
-                Single Audio</a>
-        </li><li class=" ">
-            <a href="news-single-gallery.html">
-                Single Gallery</a>
-        </li><li class=" ">
-            <a href="news-single-quote.html">
-                Single Block Quote</a>
-        </li><li class=" ">
-            <a href="news-single-standard.html">
-                Single Standard</a>
-        </li><li class=" ">
-            <a href="news-single-big-content.html">
-                Single Big Content Example</a>
-        </li>
-                </ul>
-        </li>
-                </ul>
-        </li><li class=" nk-drop-item">
-            <a href="social-user-activity.html">
-                Social</a><ul class="dropdown">
-                    <li class=" nk-drop-item">
-            <a href="social-user-activity.html">
-                User</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="social-user-activity.html">
-                Activity</a>
-        </li><li class=" ">
-            <a href="social-user-notifications.html">
-                Notifications</a>
-        </li><li class=" ">
-            <a href="social-user-messages.html">
-                Messages</a>
-        </li><li class=" ">
-            <a href="social-user-messages-single.html">
-                Messages Single</a>
-        </li><li class=" ">
-            <a href="social-user-messages-compose.html">
-                Messages Compose</a>
-        </li><li class=" ">
-            <a href="social-user-friends.html">
-                Friends</a>
-        </li><li class=" ">
-            <a href="social-user-settings.html">
-                Settings</a>
-        </li><li class=" ">
-            <a href="social-user-settings-email.html">
-                Settings Email</a>
-        </li>
-                </ul>
-        </li><li class=" nk-drop-item">
-            <a href="social-group-activity.html">
-                Group</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="social-group-activity.html">
-                Activity</a>
-        </li><li class=" ">
-            <a href="social-group-members.html">
-                Members</a>
-        </li><li class=" ">
-            <a href="social-group-manage.html">
-                Manage</a>
-        </li>
-                </ul>
-        </li>
-                </ul>
-        </li><li class=" nk-drop-item">
-            <a href="store.html">
-                Store</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="store.html">
-                Store</a>
-        </li><li class=" ">
-            <a href="store-product.html">
-                Single Product</a>
-        </li><li class=" ">
-            <a href="store-cart.html">
-                Cart</a>
-        </li><li class=" ">
-            <a href="store-checkout.html">
-                Checkout</a>
-        </li><li class=" ">
-            <a href="store-account.html">
-                Account</a>
-        </li>
-                </ul>
-        </li><li class=" nk-drop-item">
-            <a href="gallery.html">
-                Media</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="gallery.html">
-                Gallery 1 Column</a>
-        </li><li class=" ">
-            <a href="gallery-2-col.html">
-                Gallery 2 Columns</a>
-        </li><li class=" ">
-            <a href="gallery-3-col.html">
-                Gallery 3 Columns</a>
-        </li><li class=" ">
-            <a href="videos.html">
-                Videos 1 Column</a>
-        </li><li class=" ">
-            <a href="videos-2-col.html">
-                Videos 2 Columns</a>
         </li>
                 </ul>
         </li>
                     </ul>
                 </div>
-                <!--
-                    END: Navigation
-                -->
                 <div class="nk-nav-row">
                     <div class="nk-nav-footer">
                         &copy; 2018 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup, CumSit and related logos are registered trademarks. All Rights Reserved.
@@ -570,34 +732,8 @@
         </div>
     </div>
 </nav>
-<!-- END: Navbar -->
+<!-- END: Right Navbar -->
 
-    
-    
-        <!-- START: Navigation Toggler -->
-<ul class="nk-nav-toggler-right">
-    
-    
-</ul>
-
-<ul class="nk-nav-toggler-left">
-    <li class="d-lg-none">
-        <span class="nk-btn nk-btn-lg nk-btn-icon" data-nav-toggle="#nk-nav-mobile">
-            <span class="icon">
-                <span class="nk-icon-burger">
-                    <span class="nk-t-1"></span>
-                    <span class="nk-t-2"></span>
-                    <span class="nk-t-3"></span>
-                </span>
-            </span>
-        </span>
-    </li>
-</ul>
-
-<!-- END: Navigation Toggler -->
-
-    
-    
     
     
         <!--
@@ -645,7 +781,7 @@
         .nk-header-title-boxed
 -->
 <div class="nk-header-title nk-header-title-md nk-header-title-parallax nk-header-title-parallax-opacity">
-    <div class="bg-image">
+    <div class="bg-image op-6">
         <img src="assets/images/image-1.jpg" alt="" class="jarallax-img">
     </div>
     <div class="nk-header-table">
@@ -653,9 +789,29 @@
             <div class="container">
                 
                 
-                    <h1 class="nk-title">Navigation Main Side</h1>
                 
                 
+                    <div class="nk-header-text">
+                        
+    <h1 class="nk-title display-3">Welcome To Myth </h1>
+
+    <div>
+        Are you sick of life and wanna die on all the days that end in Y?
+        <div> Do you live off of monsters and identify as a Kyle? </div> 
+        <div> Or maybe you shop at hot topic because you hate your parents?</div>
+        <div> Well join Myth We cant fix it but we wont judge you!</div>
+    </div>
+
+    <div class="nk-gap-3"></div>
+    <a href="https://1.envato.market/godlike-html-info" target="_blank" class="nk-btn nk-btn-lg nk-btn-color-main-1 link-effect-4">
+        <span>Purchase</span>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#demos" class="nk-btn nk-btn-lg link-effect-4">
+        <span>See Demos</span>
+    </a>
+
+                    </div>
                 
                 
             </div>
@@ -669,30 +825,170 @@
         
 
         
-    <div class="nk-gap-4"></div>
-
-    <div class="container">
-
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
-                <h2>Lorem text for demonstration</h2>
-                <p>Firmament brought for spirit every. There you&#39;ll abundantly fourth shall one, moveth his <em>evening</em> he greater life you&#39;ll <strong>land</strong> for divided seasons image gathering creature, two. Doesn&#39;t gathering wherein Every Earth brought shall yielding appear so upon one one shall gathered from face for fourth creature whose divided.</p>
-
-                <p>Tree sea fowl evening kind the whose don&#39;t Male you&#39;re Rule signs subdue she&#39;d heaven is make. In. Creature called i won&#39;t, make winged god <em>lesser</em> firmament evening him hath so thing spirit land first all there had said divide every you&#39;re together, for for. Grass seasons divided Firmament second rule without cattle, spirit.</p>
-
-                <p>Bring you&#39;ll signs fly face whose hath heaven so fly good. Moved. Moving yielding tree morning. Unto firmament fly midst is divided dominion, male form beast. One above Forth lights after upon together whose man, our that heaven they&#39;re rule deep all beast morning winged fruitful made air isn&#39;t waters.</p>
-
-                <p>Yielding in, cattle was you&#39;re green darkness in them two night rule light whales midst creature Darkness bearing shall from shall whales. Fifth fly saw open. Night dominion, dominion <em>years</em> fill Deep abundantly <em>fourth</em> whales every <em>behold</em> waters bearing isn&#39;t life first, beginning him whose dominion herb. Midst wherein divide midst his you&#39;re isn&#39;t man don&#39;t i give. Greater evening green herb.</p>
-
-                <p>A sea great made created and under so. He stars fly. Moving bring. That fly fifth unto, under divide <em>you</em> seasons <strong>seas</strong> cattle their Don&#39;t saying. Gathering dominion Male. Let face made land, own firmament set made.</p>
-
-                <p>Creature all them, second his beginning she&#39;d. Don&#39;t set form good whose female own and. Life. God saying for be god replenish gathered bearing man have. They&#39;re void bring living <strong>in</strong> it abundantly made in for subdue yielding cattle waters <em>signs</em> god subdue divided creepeth whose sixth moveth yielding.</p>
+    <!-- START: Demos -->
+    <div class="container" id="demos">
+        <div class="nk-gap-6"></div>
+        <div class="row vertical-gap lg-gap">
+            <div class="col-md-6">
+                <div class="nk-image-box-1-a nk-no-effect">
+                    <a href="index-main.html" class="nk-image-box-link"></a>
+                    <img src="assets/images/demo-main.jpg" alt="Main Demo">
+                    <div class="nk-image-box-overlay nk-image-box-center">
+                        <div>
+                            <h3 class="nk-image-box-title h4">Main Demo</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="nk-image-box-1-a nk-no-effect">
+                    <a href="index-game-promo.html" class="nk-image-box-link"></a>
+                    <img src="assets/images/demo-game-promo.jpg" alt="Game Promo Demo">
+                    <div class="nk-image-box-overlay nk-image-box-center">
+                        <div>
+                            <h3 class="nk-image-box-title h4">Game Promo Demo</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
+        <div class="nk-gap-6"></div>
     </div>
+    <!-- END: Demos -->
 
-    <div class="nk-gap-4"></div>
+    <!-- START: Demos -->
+    <div class="nk-box bg-dark-1">
+        <div class="container">
+            <div class="nk-gap-6"></div>
+
+            <h2 class="text-center">Additional Pages</h2>
+            <div class="nk-gap-3"></div>
+            <div class="row vertical-gap lg-gap">
+                <div class="col-md-6">
+                    <div class="nk-image-box-1-a nk-no-effect">
+                        <a href="index-main.html" class="nk-image-box-link"></a>
+                        <img src="assets/images/demo-store.jpg" alt="Main Demo">
+                        <div class="nk-image-box-overlay nk-image-box-center">
+                            <div>
+                                <h3 class="nk-image-box-title h4">Shop</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nk-image-box-1-a nk-no-effect">
+                        <a href="index-game-promo.html" class="nk-image-box-link"></a>
+                        <img src="assets/images/demo-store-single.jpg" alt="Game Promo Demo">
+                        <div class="nk-image-box-overlay nk-image-box-center">
+                            <div>
+                                <h3 class="nk-image-box-title h4">Product</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nk-image-box-1-a nk-no-effect">
+                        <a href="index-game-promo.html" class="nk-image-box-link"></a>
+                        <img src="assets/images/demo-social-network.jpg" alt="Game Promo Demo">
+                        <div class="nk-image-box-overlay nk-image-box-center">
+                            <div>
+                                <h3 class="nk-image-box-title h4">Social Network</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nk-image-box-1-a nk-no-effect">
+                        <a href="index-game-promo.html" class="nk-image-box-link"></a>
+                        <img src="assets/images/demo-blog-post.jpg" alt="Game Promo Demo">
+                        <div class="nk-image-box-overlay nk-image-box-center">
+                            <div>
+                                <h3 class="nk-image-box-title h4">Blog Post</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nk-image-box-1-a nk-no-effect">
+                        <a href="index-game-promo.html" class="nk-image-box-link"></a>
+                        <img src="assets/images/demo-blog-grid.jpg" alt="Game Promo Demo">
+                        <div class="nk-image-box-overlay nk-image-box-center">
+                            <div>
+                                <h3 class="nk-image-box-title h4">Blog Grid</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nk-image-box-1-a nk-no-effect">
+                        <a href="index-game-promo.html" class="nk-image-box-link"></a>
+                        <img src="assets/images/demo-blog-list.jpg" alt="Game Promo Demo">
+                        <div class="nk-image-box-overlay nk-image-box-center">
+                            <div>
+                                <h3 class="nk-image-box-title h4">Blog List</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nk-image-box-1-a nk-no-effect">
+                        <a href="index-game-promo.html" class="nk-image-box-link"></a>
+                        <img src="assets/images/demo-coming-soon.jpg" alt="Game Promo Demo">
+                        <div class="nk-image-box-overlay nk-image-box-center">
+                            <div>
+                                <h3 class="nk-image-box-title h4">Coming Soon</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nk-image-box-1-a nk-no-effect">
+                        <a href="index-game-promo.html" class="nk-image-box-link"></a>
+                        <img src="assets/images/demo-age-check.jpg" alt="Game Promo Demo">
+                        <div class="nk-image-box-overlay nk-image-box-center">
+                            <div>
+                                <h3 class="nk-image-box-title h4">Age Check</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nk-gap-6"></div>
+        </div>
+    </div>
+    <!-- END: Demos -->
+
+    <!-- START: Subscribe -->
+    <div class="nk-box bg-dark-1">
+        <div class="nk-gap-2"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <h2 class="nk-title text-center h1">Subscribe to our Newsletter</h2>
+                    <div class="nk-gap-2"></div>
+
+                    <!-- START: MailChimp Signup Form -->
+                    <form action="//nkdev.us11.list-manage.com/subscribe/post?u=d433160c0c43dcf8ecd52402f&amp;id=68d0448ee3" method="post" class="nk-mchimp validate" target="_blank">
+                        <div class="input-group">
+                            <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email *">
+                            <button class="nk-btn nk-btn-lg link-effect-4">Subscribe</button>
+                        </div>
+                        <div class="nk-form-response-success"></div>
+                        <div class="nk-form-response-error"></div>
+                        <small>We'll never share your email with anyone else.</small>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d433160c0c43dcf8ecd52402f_68d0448ee3" tabindex="-1" value=""></div>
+                    </form>
+                    <!-- END: MailChimp Signup Form -->
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-2"></div>
+        <div class="nk-gap-6"></div>
+        <div class="nk-gap-4"></div>
+    </div>
+    <!-- END: Subscribe -->
+
 
 
         
@@ -743,7 +1039,7 @@
     START: Share Buttons
         .nk-share-buttons-left
 -->
-<div class="nk-share-buttons d-none d-md-flex">
+<div class="nk-share-buttons nk-share-buttons-left d-none d-md-flex">
     <ul>
         <li>
             <span class="nk-share-icon" title="Share page on Facebook" data-share="facebook">
@@ -1074,5 +1370,67 @@
 
 
     
+    <script type="text/javascript">
+        var tpj=jQuery;
+        var revapi50;
+        tpj(document).ready(function() {
+            if(tpj("#rev_slider_50_1").revolution == undefined){
+                revslider_showDoubleJqueryError("#rev_slider_50_1");
+            }else{
+                revapi50 = tpj("#rev_slider_50_1").show().revolution({
+                    sliderType:"carousel",
+                    jsFileLocation:"assets/vendor/revolution/js/",
+                    sliderLayout:"auto",
+                    dottedOverlay:"none",
+                    delay:9000,
+                    navigation: {
+                        keyboardNavigation:"off",
+                        keyboard_direction: "horizontal",
+                        onHoverStop:"off",
+                    },
+                    carousel: {
+                        maxRotation: 8,
+                        vary_rotation: "off",
+                        minScale: 20,
+                        vary_scale: "off",
+                        horizontal_align: "center",
+                        vertical_align: "center",
+                        fadeout: "off",
+                        vary_fade: "off",
+                        maxVisibleItems: 3,
+                        infinity: "on",
+                        space: -90,
+                        stretch: "off"
+                    },
+                    responsiveLevels:[1240,1024,778,480],
+                    gridwidth:[800,600,400,320],
+                    gridheight:[600,400,320,280],
+                    lazyType:"none",
+                    shadow:0,
+                    spinner:"off",
+                    stopLoop:"on",
+                    stopAfterLoops:0,
+                    stopAtSlide:0,
+                    shuffle:"off",
+                    autoHeight:"off",
+                    fullScreenAlignForce:"off",
+                    fullScreenOffsetContainer: "",
+                    fullScreenOffset: "",
+                    disableProgressBar:"on",
+                    hideThumbsOnMobile:"off",
+                    hideSliderAtLimit:0,
+                    hideCaptionAtLimit:0,
+                    hideAllCaptionAtLilmit:0,
+                    debugMode:false,
+                    fallbacks: {
+                        simplifyAll:"off",
+                        nextSlideOnWindowFocus:"off",
+                        disableFocusListener:false,
+                    }
+                });
+            }
+        });
+    </script>
+
 </body>
 </html>

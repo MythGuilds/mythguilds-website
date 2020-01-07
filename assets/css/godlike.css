@@ -13463,9 +13463,20 @@ span.active > .nk-icon-toggle, .nk-icon-toggle.active {
     margin-bottom: 10px;
 }
 
-.link-dialog .custom-checkbox input {
+.link-dialog .custom-checkbox input 
+{
     top: 6px;
     left: 0;
     opacity: 1;
     z-index: 1;
 }
+
+ .link-effect-l, .link-effect-r 
+
+    {
+            color: #800020
+;
+    }
+
+
+

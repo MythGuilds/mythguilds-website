@@ -13474,9 +13474,55 @@ span.active > .nk-icon-toggle, .nk-icon-toggle.active {
  .link-effect-l, .link-effect-r 
 
     {
-            color: #800020
-;
+            color: #800020 ;
     }
+ 
+ @media only screen and (max-width: 400px) 
+ {  
+ .nk-navbar-side .nk-nav-logo {
+    
+     padding: 0px 0px; 
+   
+        }   
+ } 
+
+
+ .queen {
+     color: red;
+ }
+
+ .legend {
+     color: yellow;
+ }
+
+ .police
+ {
+     color: purple;
+ }
+
+ .traditionlist{
+     color:blue;
+ }
+
+ .worshiper {
+     color: cornflowerblue;
+ }
+
+ .follower {
+     color: limegreen;
+ }
+
+ .lexi
+ {
+     width: 40%;
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+
+ }
+
+
+
 
 
 

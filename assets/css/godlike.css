@@ -13521,7 +13521,12 @@ span.active > .nk-icon-toggle, .nk-icon-toggle.active {
 
  }
 
-
+.guild-message {
+    line-height: 35px;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
 
 
 

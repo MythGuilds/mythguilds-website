@@ -13528,6 +13528,10 @@ span.active > .nk-icon-toggle, .nk-icon-toggle.active {
     -webkit-text-stroke-color: black;
 }
 
+.bg-image img {
+    filter: brightness(50%);
+}
+
 
 
 

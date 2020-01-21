@@ -13532,6 +13532,21 @@ span.active > .nk-icon-toggle, .nk-icon-toggle.active {
     filter: brightness(50%);
 }
 
+.discord-widget {
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.discord-button {
+    margin-right: auto;
+    margin-left: auto;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
 
 
 

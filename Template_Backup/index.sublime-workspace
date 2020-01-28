@@ -1,0 +1,295 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"rank",
+				"ranktxt"
+			],
+			[
+				"widget",
+				"widgetstyle"
+			],
+			[
+				"right",
+				"margin-right\tproperty"
+			],
+			[
+				"background",
+				"background-repeat\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"mb",
+				"mb-0"
+			],
+			[
+				"text",
+				"text-uppercase"
+			],
+			[
+				"margi",
+				"margin-right\tproperty"
+			],
+			[
+				"discord",
+				"discordbutton"
+			],
+			[
+				"PADDING",
+				"padding-top\tproperty"
+			],
+			[
+				"bor",
+				"border-top\tproperty"
+			],
+			[
+				"border",
+				"border-bottom\tproperty"
+			],
+			[
+				"fontst",
+				"font-style\tproperty"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"list",
+				"list-style-position\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"backgroun",
+				"background-image\tproperty"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"mmo",
+				"MMORPGS"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Program Files (x86)/Ampps/www/website/index.html",
+		"/C/Program Files (x86)/Ampps/www/mythguilds-website/index.html",
+		"/C/Program Files (x86)/Ampps/www/mythguilds-website/documentation.html",
+		"/C/Program Files (x86)/Ampps/www/mythguilds-website/element-blockquotes.html",
+		"/C/Users/Alexis/Downloads/mycode.js",
+		"/C/Program Files (x86)/Ampps/www/website/freelancer.css",
+		"/C/Program Files (x86)/Ampps/www/freelancer.css",
+		"/C/Program Files (x86)/Ampps/www/index.html",
+		"/C/Users/Alexis/Downloads/startbootstrap-freelancer-gh-pages/startbootstrap-freelancer-gh-pages/css/freelancer.min.css",
+		"/C/Users/Alexis/Downloads/Assignment3.css",
+		"/C/Users/Alexis/Downloads/assignment 4/assignment 5 .css",
+		"/C/Users/Alexis/Downloads/assignment_6_debian_v5.html",
+		"/C/Users/Alexis/Downloads/assignment 4/assignment5.css",
+		"/C/Users/Alexis/Downloads/startbootstrap-freelancer-gh-pages/startbootstrap-freelancer-gh-pages/index.html",
+		"/C/Users/Alexis/Downloads/assignment_5_debian_v1.html",
+		"/C/Users/Alexis/Downloads/assignment_5_debian_v4 (2).html",
+		"/C/Users/Alexis/Downloads/assignment_5_debian_v5 (1).html",
+		"/C/Users/Alexis/Downloads/assignment 4/assignment_5 lexi.html",
+		"/C/Users/Alexis/Downloads/assignment 4/assignment 6 lexi.html",
+		"/C/Users/Alexis/Downloads/assignment_5_debian_v3.html",
+		"/C/Users/Alexis/Downloads/assignment_5_debian_v2.html",
+		"/C/Users/Alexis/Downloads/assignment 4/assignment 5 html.html",
+		"/C/Users/Alexis/Downloads/assignment 4/Assignment4.css",
+		"/C/Users/Alexis/Downloads/assignment 4/ASSIGNMENT 4.html",
+		"/C/Users/Alexis/Downloads/assignment_5_debian.html",
+		"/C/Users/Alexis/Documents/my resume Lexi/Assignment4.css",
+		"/C/Users/Alexis/Documents/my resume Lexi/assignment 4.html",
+		"/C/Users/Alexis/Documents/my resume Lexi/Assignment 2.css",
+		"/C/Users/Alexis/Documents/my resume Lexi/Assignment2.css",
+		"/C/Users/Alexis/Documents/my resume Lexi/assignment 2.html",
+		"/C/Users/Alexis/Documents/my resume Lexi/Main.css",
+		"/C/Users/Alexis/Documents/my resume Lexi/index.html",
+		"/C/Users/Alexis/Documents/Assignment 1.html",
+		"/C/Users/Alexis/Documents/test.html",
+		"/C/Users/Alexis/Documents/mmorpgs played.html"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -16,7 +16,7 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('/about', function () use ($router) {
-    return "This is the about page";
+    return view ("about");
 });
 
 $router->get('/rules', function () use ($router) {

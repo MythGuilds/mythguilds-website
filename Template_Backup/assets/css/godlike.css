@@ -13544,8 +13544,13 @@ span.active > .nk-icon-toggle, .nk-icon-toggle.active {
 
     display: flex;
     justify-content: center;
-
 }
+
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
+
 
 
 

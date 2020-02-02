@@ -23,54 +23,36 @@
         </div>
         <div class="nk-header-table">
             <div class="nk-header-table-cell">
-                <div class="container text-center">
+                <div class="container text-left" >
 
 
-                    <h1 class="nk-title" style="font-size: 70px; text-align:center ;"   > Who is Myth? </h1>
+                    <h1 class="nk-title" style="font-size: 70px; text-align:center ;"   > THE RULES </h1>
+
+                    <h3> 1 - Trolling your fellow members is fine just dont take it too far</h3>
+                        <div class="rule-text"> Good Example: friends at a mailbox in a game and you pk him or you make some light playful jokes
+                            <br>
+                              Bad Example: Harassing Your Fellow members after being asked to Stop
+                        </div>
+
+
+                    <h3> 2- If your easily offended or triggered Leave </h3>
+
+                    <div class="rule-text">
+                        if you need a example of this you are probably not suited here
+                    </div>
+
+                    <h3> 3- DO NOT ADVERTISE </h3>
+                    <div class="rule-text"> do not advertise in any of the main channels <br>
+                        we do have a content creator channel for you to Post your twitch,youtube etc <br>
+                        if you are unsure if you can just ask any legend,police or Alexis </div>
+
+                    <h3> 3 - HAVE FUN </h3>
+                    <div class="rule-text"> this is a guild and a community Having fun is the most important rule there is
+                        <br> so come by browse our memes and have a laugh </div>
+
 
                     <div class="nk-title guild-message">
-                        <p>
-                            Myth is a Unique Guild, we dont Shy away from trolling, We welcome it, Embrace it, ENHALE IT,
-                            Lather ourselves up and coat us with it We will never EVER kick<br> a member out for trolling someone outside of our guild
-                        </p>
 
-                        <p> Most guilds don't offer what we have, they usually have some kind of restriction or even goofy rules such as not attacking a friend of a friend, or some weird <br> alliance that they have made, etc </p>
-                        <p>Well guess what!! we dont care if she is only your second cousin.
-                            If shes not in Myth shes free game here in MYTH you don't have to worry about being bound by <br> Rules we only have one major rule here and that is
-                            <br> If your easily offended or triggered Leave if you need a example of this you are probably not suited here
-
-                        </p>
-
-                        <p> you could just sum us up as being a safe Heaven for Trolls.</p>
-
-                        <hr class="rounded">
-
-
-
-
-
-                        <h2 style="font-size: 50px "> Why make Myth? </h2>
-
-
-                        <div class="Myth-text">
-                        <p> Long ago, i used to run a toxic guild that unforntently we had a falling out after 7+ years
-                            During that time i was co-gm of said guild which eventually after our falling out lead to the creation of this guild </p>
-
-                            <p>
-                            the whole reason for a toxic guild in the first place, is that there are not many guilds or gaming communities in general that do what we set out to do.
-                                Sure some may say they do, but most dont.</p>
-
-                            <p> I have experinced it first hand so many  that have said they are open to trolling, joking around and before you know it alliances have formed in game.
-                            now you cant attack said person, you cant troll or even chat with certain people the whole thing just starts to seem insane.</p>
-
-                            <p>
-                                afterall its a game?
-                                but some guilds start to feel like they are restricting certain features of said game, and here in Myth we are the opposite of those ideals
-
-
-                        </p>
-
-                    </div>
 
                 </div>
             </div>

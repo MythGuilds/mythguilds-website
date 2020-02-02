@@ -20,5 +20,5 @@ $router->get('/about', function () use ($router) {
 });
 
 $router->get('/rules', function () use ($router) {
-    return "Here are the rules";
+    return view ("rules");
 });

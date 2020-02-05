@@ -145,13 +145,6 @@
 
 
 
-
-
-
-
-
-
-
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="nk-btn" data-dismiss="modal">Close</button>
@@ -160,7 +153,6 @@
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
         </div>
-
 
 
     </div>
@@ -187,13 +179,6 @@
                         <p> Discord police is a special role only on our discord servers. (note in game)   </p>
                         <p> These officers are able to actually ban you and are here to help protect the community</P>
                         <p> Please note any officer caught abusing powers will be a automatic perma ban </p>
-
-
-
-
-
-
-
 
 
 
@@ -224,21 +209,12 @@
                     </div>
 
 
-
                     <div class="modal-body">
 
                         <p> This is a role given to either longstanding members who have given alot to our comunity or people who have earned our trust </p>
                         <p> Most people with this role are well respected members of our community  </p>
                         <p> people with this role will have access to the Traditionalist chat room  </p>
                         <p> they will also have access to most open mic rooms as well </p>
-
-
-
-
-
-
-
-
 
 
                     </div>
@@ -271,15 +247,6 @@
 
                         <p> this is our standard member role,  </p>
                         <p> given to those who have both joined in a game we play and our discord  </p>
-
-
-
-
-
-
-
-
-
 
 
                     </div>
@@ -347,16 +314,9 @@
 
 
 
-        <div class="container" style="display: none ">
-            <div class="nk-gap-2"></div>
-            <div class="nk-footer-logos">
-                <a href="https://nkdev.info/" target="_blank"><img class="nk-img" src="" alt="" width="120"></a>
-                <a href="https://nkdev.info/" target="_blank"><img class="nk-img" src=" " alt="" width="120"></a>
-                <a href="https://nkdev.info/" target="_blank"><img class="nk-img" src="" alt="" width="150"></a>
-                <a href="https://nkdev.info/" target="_blank"><img class="nk-img" src="" alt="" width="46"></a>
-                <a href="https://nkdev.info/" target="_blank"><img class="nk-img" src=" " alt="" width="160"></a>
-            </div>
-            <div class="nk-gap"></div>
+        <div class="container" >
+
+
 
             <p class="text-center">
                 &copy; <script>document.write(new Date().getFullYear())</script>

@@ -141,15 +141,6 @@
                         <p> keep ing mind while they may not be able to ban someone they can assign you the retard ranking</P>
                         <p> this will prevent you from doing any anything asside from talking in Rexarded island.</p>
 
-
-
-
-
-
-
-
-
-
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="nk-btn" data-dismiss="modal">Close</button>
@@ -188,13 +179,6 @@
 
 
 
-
-
-
-
-
-
-
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="nk-btn" data-dismiss="modal">Close</button>
@@ -221,22 +205,12 @@
                         </button>
                     </div>
 
-
-
                     <div class="modal-body">
 
                         <p> This is a role given to either longstanding members who have given alot to our comunity or people who have earned our trust </p>
                         <p> Most people with this role are well respected members of our community  </p>
                         <p> people with this role will have access to the Traditionalist chat room  </p>
                         <p> they will also have access to most open mic rooms as well </p>
-
-
-
-
-
-
-
-
 
 
                     </div>
@@ -269,15 +243,6 @@
 
                         <p> this is our standard member role,  </p>
                         <p> given to those who have both joined in a game we play and our discord  </p>
-
-
-
-
-
-
-
-
-
 
 
                     </div>
@@ -346,15 +311,6 @@
 
 
         <div class="container">
-            <div class="nk-gap-2"></div>
-            <div class="nk-footer-logos">
-                <a href="https://nkdev.info/" target="_blank"><img class="nk-img" src="" alt="" width="120"></a>
-                <a href="https://nkdev.info/" target="_blank"><img class="nk-img" src=" " alt="" width="120"></a>
-                <a href="https://nkdev.info/" target="_blank"><img class="nk-img" src="" alt="" width="150"></a>
-                <a href="https://nkdev.info/" target="_blank"><img class="nk-img" src="" alt="" width="46"></a>
-                <a href="https://nkdev.info/" target="_blank"><img class="nk-img" src=" " alt="" width="160"></a>
-            </div>
-            <div class="nk-gap"></div>
 
             <p class="text-center">
                 &copy; <script>document.write(new Date().getFullYear())</script>

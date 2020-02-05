@@ -22,3 +22,7 @@ $router->get('/about', function () use ($router) {
 $router->get('/rules', function () use ($router) {
     return view ("rules");
 });
+
+$router->get('/calender', function () use ($router) {
+    return view("calender");
+});

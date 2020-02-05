@@ -3,88 +3,37 @@
 
 @section('main-content')
     <div class="nk-main">
-
-
+        <link href="calendar.css" type="text/css" rel="stylesheet" />
     <!-- START: Header Title -->
-    <!--
-        Additional Classes:
-            .nk-header-title-sm
-            .nk-header-title-md
-            .nk-header-title-lg
-            .nk-header-title-xl
-            .nk-header-title-full
-            .nk-header-title-parallax
-            .nk-header-title-parallax-opacity
-            .nk-header-title-boxed
-    -->
+
     <div class="nk-header-title nk-header-title-md nk-header-title-parallax nk-header-title-parallax-opacity">
         <div class="bg-image">
             <img src=" " alt="" class="jarallax-img" >
         </div>
         <div class="nk-header-table">
             <div class="nk-header-table-cell">
-                <div class="container text-center">
+                <div class="container text-center" >
 
-
-                    <h1 class="nk-title" style="font-size: 70px; text-align:center ;"   > Who is Myth? </h1>
-
-                    <div class="nk-title guild-message">
-                        <p>
-                            Myth is a Unique Guild, we dont Shy away from trolling, We welcome it, Embrace it, ENHALE IT,
-                            Lather ourselves up and coat us with it We will never EVER kick<br> a member out for trolling someone outside of our guild
-                        </p>
-
-                        <p> Most guilds don't offer what we have, they usually have some kind of restriction or even goofy rules such as not attacking a friend of a friend, or some weird <br> alliance that they have made, etc </p>
-                        <p>Well guess what!! we dont care if she is only your second cousin.
-                            If shes not in Myth shes free game here in MYTH you don't have to worry about being bound by <br> Rules we only have one major rule here and that is
-                            <br> If your easily offended or triggered Leave if you need a example of this you are probably not suited here
-
-                        </p>
-
-                        <p> you could just sum us up as being a safe Heaven for Trolls.</p>
-
-                        <hr class="rounded">
-
-
-
-
-
-                        <h2 style="font-size: 50px "> Why make Myth? </h2>
-
-
-                        <div class="Myth-text">
-                        <p> Long ago, i used to run a toxic guild that unforntently we had a falling out after 7+ years
-                            During that time i was co-gm of said guild which eventually after our falling out lead to the creation of this guild </p>
-
-                            <p>
-                            the whole reason for a toxic guild in the first place, is that there are not many guilds or gaming communities in general that do what we set out to do.
-                                Sure some may say they do, but most dont.</p>
-
-                            <p> I have experinced it first hand so many  that have said they are open to trolling, joking around and before you know it alliances have formed in game.
-                            now you cant attack said person, you cant troll or even chat with certain people the whole thing just starts to seem insane.</p>
-
-                            <p>
-                                afterall its a game?
-                                but some guilds start to feel like they are restricting certain features of said game, and here in Myth we are the opposite of those ideals
-
-
-                        </p>
-
-                    </div>
-
-                </div>
+                    <h1 class="nk-title" style="font-size: 70px; text-align:center ;"   > Guild Calender </h1>
+                    <h4> guild events, meetings and special dates will be posted here </h4>
             </div>
         </div>
 
 
     </div>
-    <!-- END: Header Title -->
+
+        <!-- guild calender-->
+        <?php
+        include 'calendar.php';
+
+        $calendar = new Calendar();
+
+        echo $calendar->show();
+        ?>
 
 
 
-
-
-    <div class="nk-gap-4" ></div>
+    <div class="nk-gap-4"></div>
 
     <div class="container">
         <!-- The Modal -->
@@ -163,13 +112,6 @@
 
 
 
-
-
-
-
-
-
-
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="nk-btn" data-dismiss="modal">Close</button>
@@ -178,7 +120,6 @@
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
         </div>
-
 
 
     </div>
@@ -205,13 +146,6 @@
                         <p> Discord police is a special role only on our discord servers. (note in game)   </p>
                         <p> These officers are able to actually ban you and are here to help protect the community</P>
                         <p> Please note any officer caught abusing powers will be a automatic perma ban </p>
-
-
-
-
-
-
-
 
 
 
@@ -242,21 +176,12 @@
                     </div>
 
 
-
                     <div class="modal-body">
 
                         <p> This is a role given to either longstanding members who have given alot to our comunity or people who have earned our trust </p>
                         <p> Most people with this role are well respected members of our community  </p>
                         <p> people with this role will have access to the Traditionalist chat room  </p>
                         <p> they will also have access to most open mic rooms as well </p>
-
-
-
-
-
-
-
-
 
 
                     </div>
@@ -289,15 +214,6 @@
 
                         <p> this is our standard member role,  </p>
                         <p> given to those who have both joined in a game we play and our discord  </p>
-
-
-
-
-
-
-
-
-
 
 
                     </div>
@@ -347,9 +263,6 @@
     </div>
 
 
-
-
-
     <div class="nk-gap-4"></div>
 
 
@@ -366,8 +279,6 @@
 
 
         <div class="container" >
-
-
             <p class="text-center">
                 &copy; <script>document.write(new Date().getFullYear())</script>
                 All other trademarks or trade names are the property of their respective owners. All Rights Reserved.

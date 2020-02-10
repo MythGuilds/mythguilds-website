@@ -11,6 +11,8 @@
 |
 */
 
+
+// Direct View
 $router->get('/', function () use ($router) {
     return view('home');
 });
@@ -23,6 +25,8 @@ $router->get('/rules', function () use ($router) {
     return view ("rules");
 });
 
-$router->get('/calender', function () use ($router) {
-    return view("calender");
-});
+// Controllers Under /app/Http/Controllers/
+
+$router->get('/test', "TestController@leximethod");
+
+$router->post('/api/signup', "UserController@signup");

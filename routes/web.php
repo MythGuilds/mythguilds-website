@@ -13,15 +13,15 @@
 
 
 // Direct View
-$router->get('/', function () use ($router) {
+$router->get('/', function () {
     return view('home');
 });
 
-$router->get('/about', function () use ($router) {
+$router->get('/about', function () {
     return view ("about");
 });
 
-$router->get('/rules', function () use ($router) {
+$router->get('/rules', function () {
     return view ("rules");
 });
 
